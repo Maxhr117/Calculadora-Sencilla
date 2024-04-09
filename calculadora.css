@@ -38,34 +38,34 @@
 }
 .marco .signo{
     grid-area: sgn;
-    background: #565554;
+   
 }
 .marco .borrar{
     grid-area: clr;
-    background: #1c77c3;
+   
 }
 .marco .oper_S{
     grid-area: s;
-    background: #d63230;
+    
 }
 .marco .oper_R{
     grid-area: r;
-    background: #f39237;
+  
 }
 .marco .oper_P{
     grid-area: p;
-    background: #04724d;
+    
 }
 .marco .oper_D{
     grid-area: d;
-    background: #f6f5ae;
+ 
 }
 .marco .enter{
     width: auto;
     grid-area: eq;
-    background: #bf8b85;
+    
 }
-/* .marco :is(.borrar, .DIVISION, .enter, .MULTIPLICACION, .RESTA, .signo, .SUMA,){
+.marco :is(.oper_D, .oper_P, .oper_R, .oper_S, .enter, .borrar, .signo){
     background: gray;
     color: white;
-} */
+}
